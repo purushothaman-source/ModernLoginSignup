@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Login Form | Developer-Purushoth</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="signin form-container">
+        <form>
+          <h3>SignIn</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <span>or use your email password</span>
+          <input type="email" placeholder="Email" required />
+          <input type="text" placeholder="Password" required />
+          <button>SIGNIN</button>
+        </form>
+      </div>
+      <div class="signup form-container">
+        <form class="d-none">
+          <h3>Create Account</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <span>or use your email password</span>
+          <input type="text" placeholder="UserName" required />
+          <input type="email" placeholder="Email" required />
+          <input type="text" placeholder="Password" required />
+          <button>SIGNUP</button>
+        </form>
+      </div>
+
+      <div class="blue-highlight active">
+        <div class="left-content d-none">
+          <h2 class="text-center">Welcome Back</h2>
+          <p class="text-center">
+            Enter your details to access feature of this site
+          </p>
+
+          <button class="toggle-btn">SIGNIN</button>
+        </div>
+        <div class="right-content active">
+          <h2 class="text-center">Hello Dear</h2>
+          <p>Enter your details and let's get start it</p>
+
+          <button class="toggle-btn">SIGNUP</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
